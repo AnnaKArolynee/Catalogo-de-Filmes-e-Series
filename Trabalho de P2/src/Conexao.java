@@ -19,7 +19,7 @@ public class Conexao {
 
         String sql = """
             CREATE TABLE IF NOT EXISTS filmes (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                id INTEGER PRIMARY KEY,
                 titulo TEXT NOT NULL,
                 diretor TEXT NOT NULL,
                 genero TEXT NOT NULL,
